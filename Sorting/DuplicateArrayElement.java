@@ -1,3 +1,4 @@
+//WAP to print duplicate elements in a array
 package Sorting;
 
 import java.util.HashMap;
