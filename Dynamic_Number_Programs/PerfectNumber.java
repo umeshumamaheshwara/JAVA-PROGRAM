@@ -1,0 +1,23 @@
+package Dynamic_Number_Programs;
+
+import java.util.Scanner;
+
+public class PerfectNumber {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		
+		int no = sc.nextInt();
+		int sum = 0;
+		for(int i=1; i<=no/2 ; i++)
+		{
+			sum = sum + i ;
+		}
+		
+		System.out.println(no +"\tIs Perfect Number");
+		
+	}
+
+}
